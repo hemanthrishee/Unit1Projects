@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Unit1Projects"
+        tools:targetApi="31">
+        <activity
+            android:name=".unit5.WifiSpeedTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.WifiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.PairedBluetoothDevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.AvailableBluetoothDevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.BluetoothActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.BarometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.LightSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.ProximitySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.MagnetometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.GyroscopeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.AccelerometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit2.propertyanimations.PropertyAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit2.particleanimation.ParticleAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit2.basicanimations.BasicAnimationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit2.canvasbasics.CanvasBasics"
+            android:exported="false" />
+        <activity
+            android:name=".unit6.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit4.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit3.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit2.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".unit1.notificationFirebase.NotificationPermissionRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.realtimeDatabaseFirebase.EditEmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.realtimeDatabaseFirebase.EmployeeListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.realtimeDatabaseFirebase.DatabaseModifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.realtimeDatabaseFirebase.CreateEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.googleSignInFirebase.GoogleLoggedInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.googleSignInFirebase.GoogleSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.emailPasswordFirebase.LoggedInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.emailPasswordFirebase.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.emailPasswordFirebase.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit1.MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".unit1.notificationFirebase.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_foreground" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+    </application>
+
+</manifest>
