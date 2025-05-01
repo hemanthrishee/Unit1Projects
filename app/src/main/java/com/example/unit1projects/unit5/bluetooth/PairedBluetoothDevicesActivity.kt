@@ -1,4 +1,4 @@
-package com.example.unit1projects.unit5
+package com.example.unit1projects.unit5.bluetooth
 
 import android.bluetooth.BluetoothAdapter
 import android.content.pm.PackageManager

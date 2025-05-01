@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".unit5.AvailableBluetoothDevicesActivity">
+    tools:context=".unit5.bluetooth.AvailableBluetoothDevicesActivity">
 
     <Button
         android:id="@+id/scanButton"

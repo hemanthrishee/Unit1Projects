@@ -1,4 +1,4 @@
-package com.example.unit1projects.unit5
+package com.example.unit1projects.unit5.wifi
 
 import android.content.BroadcastReceiver
 import android.content.Context

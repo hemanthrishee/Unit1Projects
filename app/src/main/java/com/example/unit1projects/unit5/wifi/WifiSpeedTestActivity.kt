@@ -1,4 +1,4 @@
-package com.example.unit1projects.unit5
+package com.example.unit1projects.unit5.wifi
 
 import android.os.Bundle
 import android.widget.Button
@@ -13,7 +13,6 @@ import com.example.unit1projects.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.net.URL
-import java.net.URLConnection
 import javax.net.ssl.HttpsURLConnection
 import kotlin.system.measureTimeMillis
 

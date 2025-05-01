@@ -1,4 +1,4 @@
-package com.example.unit1projects.unit5
+package com.example.unit1projects.unit5.bluetooth
 
 import android.Manifest
 import android.bluetooth.BluetoothAdapter
@@ -9,7 +9,6 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.annotation.RequiresPermission
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat

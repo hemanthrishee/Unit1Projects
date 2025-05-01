@@ -5,15 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".unit5.bluetooth.BluetoothActivity">
+    tools:context=".unit2.transitions.TransitionEndActivity">
 
-    <Button
-        android:id="@+id/bluetoothToggle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Toggle Bluetooth"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="218dp"
+        android:layout_height="387dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="253dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/i2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

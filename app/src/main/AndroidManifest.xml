@@ -25,19 +25,28 @@
         android:theme="@style/Theme.Unit1Projects"
         tools:targetApi="31">
         <activity
-            android:name=".unit5.WifiSpeedTestActivity"
+            android:name=".unit2.transitions.TransitionEndActivity"
             android:exported="false" />
         <activity
-            android:name=".unit5.WifiActivity"
+            android:name=".unit2.transitions.TransitionStartActivity"
             android:exported="false" />
         <activity
-            android:name=".unit5.PairedBluetoothDevicesActivity"
+            android:name=".unit2.animations.AnimationsActivity"
             android:exported="false" />
         <activity
-            android:name=".unit5.AvailableBluetoothDevicesActivity"
+            android:name=".unit5.wifi.WifiSpeedTestActivity"
             android:exported="false" />
         <activity
-            android:name=".unit5.BluetoothActivity"
+            android:name=".unit5.wifi.WifiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.bluetooth.PairedBluetoothDevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.bluetooth.AvailableBluetoothDevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".unit5.bluetooth.BluetoothActivity"
             android:exported="false" />
         <activity
             android:name=".unit4.BarometerActivity"

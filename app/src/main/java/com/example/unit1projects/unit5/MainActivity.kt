@@ -8,6 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.unit1projects.R
+import com.example.unit1projects.unit5.bluetooth.AvailableBluetoothDevicesActivity
+import com.example.unit1projects.unit5.bluetooth.BluetoothActivity
+import com.example.unit1projects.unit5.bluetooth.PairedBluetoothDevicesActivity
+import com.example.unit1projects.unit5.wifi.WifiActivity
+import com.example.unit1projects.unit5.wifi.WifiSpeedTestActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var bluetoothLink: Button
